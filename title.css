@@ -1,0 +1,44 @@
+
+
+/*------Logo alignment-------*/
+.logo{
+    margin-top: 3%;
+    margin-left: 35%;
+    height: 300px;
+    width: 300px;
+}
+
+/*------Member cards-------*/
+.members,.memID {
+    margin: 100px 350px 0px 350px;
+    display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-column-gap: 50px;
+    font-size: 30px;
+    border-radius: 10%;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.members p {
+    text-align: center;
+    color:rgb(4, 8, 10);
+    background-color: rgba(245, 233, 233, 0.336);
+    border-radius: 10%;
+}
+
+
+body{
+    margin: 0;
+}
+
+/*------Background Image -------*/
+.background-img{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    z-index: -1;
+}
+
+
